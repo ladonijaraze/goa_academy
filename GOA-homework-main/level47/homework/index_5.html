@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box blue-box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); 
+        grid-template-rows: repeat(3, 1fr); 
+        gap: 10px; 
+        width: 500px; 
+        height: 300px; 
+        border: 2px solid black; 
+        padding: 10px; 
+      }
+      .box {
+        border: 2px solid red; 
+        display: flex; 
+    
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .blue-box {
+        border: 2px solid blue; 
+        grid-row: 2; 
+      }</style>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{font-family: sans-serif;
+height: 100vh;
+background-image: linear-gradient(78deg, red,purple,blue);}
+
+
+h1{margin: 29px;}
+input[type="text"]{padding: 10px  15px;
+outline: none; 
+border: 3px solid black;
+background-image: linear-gradient(rgb(57, 232, 238),green);}
+
+input[type="text"]:hover{background-color: aqua;}
+input[type="email"]{padding: 10px  15px;
+    outline: none; 
+    border: 3px solid black;
+    background-image: linear-gradient(rgb(79, 245, 79),rgb(35, 165, 182));}
+    input[type="text"]:focus{background: red;
+    border: 3px solid blue;}
+body{display: flex ;
+justify-self: start;
+align-items: center;}
+
+.container{display: flex; border: 2px solid black;
+}
+p{border: 2px  solid green; 
+
+
+
+}

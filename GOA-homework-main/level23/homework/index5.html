@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ინტერაქტიული მაგიდა</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<h2>ინტერაქტიული მაგიდა</h2>
+
+<table id="myTable">
+    <thead>
+        <tr>
+            <th>პროდუქტი</th>
+            <th>კატეგორია</th>
+            <th>ფასი</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ტელევიზორი</td>
+            <td>ელექტრონიკა</td>
+            <td>1200₾</td>
+        </tr>
+        <tr>
+            <td>ლეპტოპი</td>
+            <td>ტექნიკა</td>
+            <td>2500₾</td>
+        </tr>
+        <tr>
+            <td>მობილური</td>
+            <td>ტექნიკა</td>
+            <td>800₾</td>
+        </tr>
+    </tbody>
+</table>
+
+<button onclick="addRow()">ახალი სტრიქონის დამატება</button>
+
+<script>
+    function addRow() {
+        var table = document.getElementById("myTable").getElementsByTagName('tbody')[0];
+        var newRow = table.insertRow();
+        var cell1 = newRow.insertCell(0);
+        var cell2 = newRow.insertCell(1);
+        var cell3 = newRow.insertCell(2);
+        cell1.innerHTML = "ახალი პროდუქტი";
+        cell2.innerHTML = "კატეგორია";
+        cell3.innerHTML = "ფასი";
+    }
+</script>
+
+</body>
+</html>

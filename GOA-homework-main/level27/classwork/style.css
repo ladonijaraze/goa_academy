@@ -1,0 +1,21 @@
+#p {
+    background-color: #d84040;
+}
+
+.paragrap {
+    font-size: large;
+    
+}
+
+html {
+    background-color: rgb(47, 87, 74);
+}
+
+body {
+    background-color: hsl(100, 29%, 100%);
+}
+
+body{h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+}

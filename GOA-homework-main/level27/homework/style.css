@@ -1,0 +1,44 @@
+
+.vanda {
+    background-color: #000000;
+    font-family: 'Arial', sans-serif; 
+    font-style: italic; 
+    font-weight: bold; 
+    color: #FF5733;
+}
+
+
+.bruce-lee {
+    background-color: #000000;
+    font-family: 'Courier New', monospace; 
+    font-style: normal;
+    font-weight: 600; 
+    color: rgb(255, 223, 0); 
+}
+
+
+.jackie-chan {
+    background-color: #000000;
+    font-family: 'Georgia', serif; 
+    font-style: oblique; 
+    font-weight: 400; 
+    color: hsl(120, 100%, 25%); 
+}
+
+
+.jet-li {
+    background-color: #000000;
+    font-family: 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: lighter; 
+    color: #8E44AD; 
+}
+
+
+.sylvester-stallone {
+    background-color: #000000;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: 900; 
+    color: rgb(255, 87, 34); 
+}

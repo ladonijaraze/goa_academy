@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>წრის რადიუსის ანიმაცია</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="circle"></div>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  border-radius: 50%;
+  animation: pulseRadius 3s infinite alternate;
+}
+
+@keyframes pulseRadius {
+  0% {
+    border-radius: 50%;
+  }
+  50% {
+    border-radius: 10%;
+  }
+  100% {
+    border-radius: 50%;
+  }
+}
+
+
+</style>
+</body>
+</html>

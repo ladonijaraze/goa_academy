@@ -1,0 +1,11 @@
+button{
+    text-size-adjust: 76px;
+    width: 345px;
+    height: 89px;
+    background-color: black;
+    color: blueviolet;
+    cursor: context-menu;
+}
+main p,footer p{background-color: blue;
+
+}

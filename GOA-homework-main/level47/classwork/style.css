@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+  .კკ {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .box {
+    width: 120px;
+    height: 80px;
+    border: 2px solid #00aaff;
+    background: transparent;
+  }

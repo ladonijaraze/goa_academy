@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+body {
+    font-family: 'Rokkitt', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+@font-face{
+    font-family:"lomi" ;
+    src: url(bpg_nino_mtavruli_bold_[FONTS.GE]);
+}

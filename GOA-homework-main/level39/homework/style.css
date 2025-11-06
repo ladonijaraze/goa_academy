@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: circle; 
+    margin-left: 20px;
+}
+
+ul.animal-list {
+    list-style-type: square;
+}
+
+ul.bird-list {
+    list-style-type: disc;
+}
+
+ul.reptile-list {
+    list-style-type: decimal;
+}
+
+ul.plant-list {
+    list-style-type: lower-roman;
+}
+
+ul.bacteria-list {
+    list-style-type: upper-alpha;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+}

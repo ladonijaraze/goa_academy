@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>საიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#home">მთავარი</a>
+        <a href="#about">ჩვენ შესახებ</a>
+        <a href="#contact">კონტაქტი</a>
+    </nav>
+
+    <header>
+        <h1>გამარჯობა ჩვენს ვებ-გვერდზე!</h1>
+        <p>ეს არის მაგალითის ვებ-გვერდი, რომელიც შეიცავს ყველა საჭირო ელემენტს.</p>
+    </header>
+
+    <section id="home" class="content">
+        <h2>მთავარი ნაწილი</h2>
+        <p>ეს არის ვებ-გვერდის მთავარი ნაწილი.</p>
+        <img src="https://via.placeholder.com/800x300" alt="Placeholder Image">
+    </section>
+
+    <section id="about" class="content">
+        <h2>ჩვენ შესახებ</h2>
+        <p>ჩვენი გუნდი მუშაობს მსოფლიოში წამყვან ტექნოლოგიებთან ერთად.</p>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>კონტაქტი</h2>
+        <p>დაგვიკავშირდით! ჩვენ ვიღებთ თქვენს კომენტარებს.</p>
+        <form>
+            <input type="text" name="name" placeholder="თქვენი სახელი" required><br><br>
+            <input type="email" name="email" placeholder="თქვენი ელ.ფოსტა" required><br><br>
+            <button type="submit">გაგზავნა</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ჩვენი ვებ-გვერდი</p>
+    </footer>
+
+</body>
+</html>

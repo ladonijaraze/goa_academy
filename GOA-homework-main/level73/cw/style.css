@@ -1,0 +1,22 @@
+.margin-center{display: flex;
+max-width: 1200px;}
+
+header{display: flex;
+position: absolute;
+width: 100%;
+height: 100%;
+
+}
+.bg-blur{display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+left: 0;
+top: 0;
+z-index: -1;
+background-color: aqua;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+filter: blur();
+opacity: 0.5;}

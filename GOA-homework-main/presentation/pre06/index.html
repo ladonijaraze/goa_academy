@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>შეტყობინების გაგზავნა</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-size: 14px;
+            color: #555;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+        textarea {
+            resize: vertical;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .message {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #d4edda;
+            border-radius: 5px;
+            color: #155724;
+            text-align: center;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>გაგზავნე შეტყობინება</h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">სახელი</label>
+                <input type="text" id="name"  placeholder="შეიყვანეთ თქვენი სახელი" >
+            </div>
+            <div class="form-group">
+                <label for="email">ელ. ფოსტა</label>
+                <input type="email" id="email"  placeholder="შეიყვანეთ თქვენი ელ. ფოსტა" >
+            </div>
+            <div class="form-group">
+                <label for="message">შეტყობინება</label>
+                <input type="text" id="massage">
+            </div>
+            <button type="submit">გაგზავნე</button>
+        </form>
+
+       
+    </div>
+
+   
+
+</body>
+</html>

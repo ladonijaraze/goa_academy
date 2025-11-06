@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Header & Footer</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">ᲛᲔᲜᲘᲣ</div>
+    <nav class="nav">
+      <a href="#">მთავარი</a>
+      <a href="#">ჩვენს შესახებ</a>
+      <a href="#">კონტაქტი</a>
+    </nav>
+    <div class="hamburger">&#9776;</div>
+  </header>
+
+  <main class="content">
+    <p>Აქ იქნება თქვენი კონტენტი...</p>
+    <p>Მეტი ტექსტი...</p>
+    <p>Ამჟღავნეთ მეტი ინფორმაციისთვის...</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>author:lado nijaradze</p>
+  </footer>
+<style>
+
+.site-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.content {
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.site-footer {
+  position: relative;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .site-header.active .nav {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .site-footer {
+    text-align: center;
+    font-size: 1.2em;
+  }
+}
+
+
+</style>
+</body>
+</html>

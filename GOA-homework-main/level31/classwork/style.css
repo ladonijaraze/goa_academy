@@ -1,0 +1,15 @@
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
+    border: 18px solid rgb(146, 48, 48);
+    margin: 30px 20px 35px 25px;
+    background-color: blue;
+}
+img{width: 340px ;
+}
+
+p{font-size:x-large;
+}
+.lalala{margin:0 auto;
+width: 900;}
