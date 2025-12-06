@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.q1 {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+}
+
+.q2 {
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+}
+
+.q3 {
+    background-color: chartreuse;
+    width: 150;
+    height: 150px;
+}
+
+.q4 {
+    background-color: coral;
+    width: 150px;
+    height: 150px;
+}
