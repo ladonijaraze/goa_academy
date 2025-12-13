@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(153, 93, 181);
+    background-size: 100%;
+}
+
+.daws {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.f {
+    border-radius: 15%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(63, 38, 68);
+    background-color: rgb(247, 148, 31);
+}
+

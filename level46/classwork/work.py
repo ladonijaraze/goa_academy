@@ -1,5 +1,5 @@
 def square_digits(num):
-    ret = ""
+    re = ""
     for x in str(num):
-        ret += str(int(x)**2)
-    return int(ret)
+        re += str(int(x)**2)
+    return int(re)
