@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child {
+    background-color: rgb(242, 73, 34);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.u {
+    background-color: lightgreen;
+    width: 110px;
+    height: 110px;
+}

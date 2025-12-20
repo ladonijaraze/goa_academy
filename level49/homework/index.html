@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Tasks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .section {
+      border-bottom: 2px solid #ddd;
+      padding: 30px 0;
+    }
+
+    .box {
+      width: 80px;
+      height: 80px;
+      background: #4caf50;
+      margin: 10px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .horizontal-center {
+      display: flex;
+      justify-content: center;
+    }
+
+    .vertical-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+    }
+
+    .five-boxes {
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      align-items: center;
+    }
+
+    .five-boxes .middle {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+      background: #333;
+      color: white;
+    }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .button-panel {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+
+    .button-panel button {
+      flex: 1;
+      max-width: 120px;
+      padding: 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section horizontal-center">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+
+  <div class="section vertical-center">
+    <div class="box">A</div>
+    <div class="box">B</div>
+    <div class="box">C</div>
+  </div>
+
+  <div class="section five-boxes">
+    <div class="box">Top</div>
+
+    <div class="middle">
+      <div class="box">Center 1</div>
+      <div class="box">Center 2</div>
+      <div class="box">Center 3</div>
+    </div>
+
+    <div class="box">Bottom</div>
+  </div>
+
+  <header>
+    <div>LOGO</div>
+    <nav class="menu">
+      <div>Home</div>
+      <div>About</div>
+      <div>Contact</div>
+    </nav>
+    <div>🔍</div>
+  </header>
+
+  <div class="button-panel">
+    <button>Btn 1</button>
+    <button>Btn 2</button>
+    <button>Btn 3</button>
+    <button>Btn 4</button>
+  </div>
+
+</body>
+</html>
