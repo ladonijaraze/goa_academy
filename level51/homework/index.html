@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>გელა ბარკალაია</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        .header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav div {
+            display: inline-block;
+            color: white;
+            margin: 0 15px;
+            cursor: pointer;
+        }
+
+        .container {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+            background: #ddd;
+            padding: 15px;
+        }
+
+        .content {
+            width: 75%;
+            background: white;
+            padding: 15px;
+        }
+
+        .box {
+            background: #eaeaea;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>ჩემი ვებსაიტი</h1>
+        <p>HTML + CSS (div-ებით)</p>
+    </div>
+
+    <div class="nav">
+        <div>მთავარი</div>
+        <div>ჩვენ შესახებ</div>
+        <div>კონტაქტი</div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>მენიუ</h3>
+            <div class="box">ლინკი 1</div>
+            <div class="box">ლინკი 2</div>
+            <div class="box">ლინკი 3</div>
+        </div>
+
+        <div class="content">
+            <h2>კონტენტი</h2>
+            <p>ეს არის მთავარი კონტენტის ნაწილი.</p>
+
+            <div class="box">ბლოკი 1</div>
+            <div class="box">ბლოკი 2</div>
+        </div>
+    </div>
+
+
+</body>
+</html>
