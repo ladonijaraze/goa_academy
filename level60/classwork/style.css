@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  height: 600px;
+}
+
+.left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.bottom {
+  display: flex;
+  gap: 20px;
+}
+
+/* boxes */
+.box {
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* sizing */
+.b1 { background: cyan; height: 30%; }
+.b3 { background: yellow; height: 30%; }
+
+.b4 {
+  background: #00ff66;
+  flex: 1;
+}
+
+.b5 {
+  background: orange;
+  flex: 2;
+}
+
+/* right tall box */
+.b2 {
+  background: magenta;
+  flex: 1;
+}

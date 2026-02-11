@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0 auto;
+    height: 1000px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+
+}
+
+button {
+    background-color: orange;
+    text-decoration: none;
+}
+
+h4 {
+    color: orange;
+}
