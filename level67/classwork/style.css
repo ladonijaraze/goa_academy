@@ -1,0 +1,8 @@
+@font-face {
+    font-family:"Bitcount Grid Double";
+    src: url(./assets/fonts/Bitcount_Grid_Double/Bitcount_Grid_Double.ttf) 
+    
+}
+font-bitcount-grid-double {
+    font-family: "Bitcount Grid Double";
+}
