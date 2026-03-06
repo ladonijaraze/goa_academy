@@ -1,0 +1,61 @@
+.ll {
+
+    display: flex;
+    width: 700px;
+    height: 40px;
+    gap: 25px;
+}
+
+.ee {
+    border: 2px solid rgb(88, 87, 87);
+    border-radius: 10%;
+    width: 150px;
+    height: 30px;
+    align-self: center;
+}
+
+.rr {
+    margin-right: 60px;
+}
+
+.w {
+    align-self: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+div {
+    width: 320px;
+}
+
+.s {
+    width: 300px;
+    height: 300px;
+}
+
+body {
+    column-gap: 200px;
+}
+
+.f {
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    justify-self: center;
+    color: white;
+    border-radius: 10%;
+}
+
+.tt {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 30px;
+}
+
+.uu{display: flex;
+justify-content: space-around;}
+.k{width: 90px;
+height: 30px;}
