@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(150, 82, 0);
+}
+
+.cont div:nth-child(8){
+    width: 500px;
+    height: 500px;
+    background-color: crimson;
+}
