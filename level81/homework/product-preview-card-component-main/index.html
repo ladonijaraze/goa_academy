@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Card</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2ebe3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* CARD */
+.card {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+/* IMAGE */
+.card img {
+  width: 50%;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.content {
+  padding: 20px;
+  width: 50%;
+}
+
+.category {
+  letter-spacing: 3px;
+  color: gray;
+  font-size: 12px;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+.desc {
+  color: #777;
+  font-size: 14px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.new {
+  color: green;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.old {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card img,
+  .content {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1541643600914-78b084683601" alt="">
+
+  <div class="content">
+    <div class="category">PERFUME</div>
+
+    <h2>Gabrielle Essence Eau De Parfum</h2>
+
+    <p class="desc">
+      A floral, solar and voluptuous interpretation composed by Olivier Polge.
+    </p>
+
+    <div class="price">
+      <span class="new">$149.99</span>
+      <span class="old">$169.99</span>
+    </div>
+
+    <button>Add to Cart</button>
+  </div>
+</div>
+
+</body>
+</html>
