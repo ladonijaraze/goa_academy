@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <form id="form">
+    <input type="text" placeholder="username">
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    const form = document.getElementById("form");
+
+    form.addEventListener("submit", function(e) {
+      e.preventDefault(); 
+      console.log("logged in successfully");
+    });
+  </script>
+
+
+</body>
+</html>
